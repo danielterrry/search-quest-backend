@@ -23,7 +23,7 @@ components:
         firstName: Daniel
         lastName: Terry
         fullName: Daniel Terry
-        role: admin
+        role: user
 
     Token:
       type: object

@@ -44,7 +44,6 @@ module.exports = router;
  *             required:
  *               - firstName
  *               - lastName
- *               - fullName
  *               - email
  *               - password
  *               - role
@@ -52,8 +51,6 @@ module.exports = router;
  *               firstName:
  *                 type: string
  *               lastName:
- *                 type: string
- *               fullName:
  *                 type: string
  *               email:
  *                 type: string
@@ -70,7 +67,6 @@ module.exports = router;
  *             example:
  *               firstName: Daniel
  *               lastName: Terry
- *               fullName: Daniel Terry
  *               email: daniel.terry5@gmail.com
  *               password: pass
  *               role: user
@@ -99,7 +95,7 @@ module.exports = router;
  *         firstName: firstName
  *         schema:
  *           type: string
- *         description: User firstName
+ *         description: User fullName
  *       - in: query
  *         name: role
  *         schema:
